@@ -4,7 +4,7 @@ from spacy import displacy
 import html
 
 # Load your trained model
-nlp = spacy.load('trained_model1')
+nlp = spacy.load('trained_model')
 st.title("Skill and Information Extraction")
 st.write("Enter text below to extract named entities:")
 
